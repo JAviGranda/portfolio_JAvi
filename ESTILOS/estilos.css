@@ -1,0 +1,326 @@
+@import url('https://fonts.cdnfonts.com/css/lemonmilk');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 20px 200px;
+}
+
+.flex {
+    display: flex;
+}
+
+nav {
+    justify-content: space-between;
+    /* margin-top: 50px; */
+    padding-top: 50px;
+    padding-bottom: 30px;
+    position: fixed;
+    width: calc(100% - 400px);
+    top: 0;
+    background-color: white;
+
+}
+
+nav a {
+    color: #FA1249;
+}
+
+nav a:hover {
+    color: #0AB7DD;
+}
+
+.logo {
+    background-image: url(../imagenes/logo.svg);
+    width: 250px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+}
+
+.menu {
+    gap: 48px;
+}
+
+h2 {
+    font-family: 'Lemon/Milk', sans-serif;
+    font-size: 32px;
+
+}
+
+a {
+    font-family: 'Lemon/Milk', sans-serif;
+}
+
+.cabecera {
+    justify-content: center;
+    align-content: center;
+    margin: 50px 0px 100px 0px;
+    padding-top: 200px;
+}
+
+.foto {
+
+    background-image: url(../imagenes/YO.png);
+    width: 360px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.hola {
+    color: #FA1249;
+}
+
+.texto-cabecera {
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+
+.presentacion {
+    background-color: #0AB7DD;
+    color: white;
+    padding: 20px 50px 40px;
+    margin: 0px 0px 100px 0px;
+    border-radius: 80px;
+}
+
+.titulo-presentacion {
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+}
+
+
+
+.btns-trabajos {
+    justify-content: space-around;
+    margin-bottom: 100px;
+    padding-top: 200px;
+
+
+}
+
+.btn-fondo {
+    background-color: #FA1249;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn-fondo:hover {
+    background-color: #0AB7DD;
+}
+
+.trabajos {
+    margin: 0px 0px 100px 0px;
+
+}
+
+.titulo-trabajos {
+    margin: 0px 0px 20px 0px;
+    font-size: 64px;
+    color: #0AB7DD;
+}
+
+.inicio-ux {
+    margin: 0px 0px 40px 0px;
+    padding-top: 250px;
+}
+
+
+.ux-1 {
+    width: 33%;
+
+}
+
+
+
+.ux-1:hover {
+    filter: brightness(50%);
+    transition: 0.5s;
+}
+
+.ux-2 {
+    width: 33%;
+}
+
+.ux-2:hover {
+    filter: brightness(50%);
+    transition: 0.5s;
+}
+
+.ux-3 {
+    width: 33%;
+}
+
+.ux-3:hover {
+    filter: brightness(50%);
+    transition: 0.5s;
+}
+
+.video-1 {
+    width: 33%;
+}
+
+.video-1:hover {
+    filter: brightness(50%);
+    transition: 0.5s;
+}
+
+.video-2 {
+    width: 33%;
+}
+
+.video-2:hover {
+    filter: brightness(50%);
+    transition: 0.5s;
+}
+
+.video-3 {
+    width: 33%;
+}
+
+.video-3:hover {
+    filter: brightness(50%);
+    transition: 0.5s;
+}
+
+.gra-1 {
+    width: 33%;
+}
+
+.gra-1:hover {
+    filter: brightness(50%);
+    transition: 0.5s;
+}
+
+.gra-2 {
+    width: 33%;
+}
+
+.gra-2:hover {
+    filter: brightness(50%);
+    transition: 0.5s;
+}
+
+.gra-3 {
+    width: 33%;
+}
+
+.gra-3:hover {
+    filter: brightness(50%);
+    transition: 0.5s;
+}
+
+.video {
+    align-items: end;
+    flex-direction: column;
+}
+
+.inicio-video {
+    flex-direction: column;
+    margin: 250px 0px 40px 0px;
+    padding-top: 250px;
+}
+
+.inicio-grafica {
+    margin: 300px 0px 40px 0px;
+    padding-top: 50px;
+}
+
+.parrafo-video {
+    color: #FA1249;
+    width: 40%;
+    text-align: end;
+    margin-bottom: 20px;
+}
+
+.parrafo-trabajos {
+    color: #FA1249;
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.inicio-grafica {
+    margin-bottom: 300px;
+    padding-top: 250px;
+
+}
+
+.caja-empresas {
+    margin-bottom: 300px;
+}
+
+.empresas {
+    text-align: center;
+    color: #0AB7DD;
+    margin-bottom: 200px;
+}
+
+.empresas-img {
+    background-image: url(../imagenes/empresas.png);
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    margin-bottom: 100px;
+
+}
+
+.header-sobremi {
+    text-align: center;
+    color: #0AB7DD;
+    margin: 0px 0px 20px 0px;
+}
+
+.titulo-sobremi {
+    margin: 0px 0px 20px 0px;
+    color: #FA1249;
+}
+
+.sobre-mi {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding-top: 250px;
+}
+
+.sobremi-1 {
+    margin: 0px 0px 40px 0px;
+}
+
+.sobremi-2 {
+    margin: 0px 0px 40px 0px;
+}
+
+.sobremi-3 {
+    margin: 0px 0px 40px 0px;
+}
+
+.texto {
+    line-height: 120%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.scroll-up {
+    width: 50px;
+    height: 50px;
+    background-image: url(../imagenes/icon/tabler-icons/Group\ 18.svg);
+    background-size: cover;
+    background-color: #0AB7DD;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
